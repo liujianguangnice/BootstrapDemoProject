@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+    <title>Title template</title>
+    <!--Bootstrap  从bootstrap导入css-->
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style type="text/css">
+        .jumbotron {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            color: inherit;
+            background-color: #0780ed;
+        }
+        .col-md-4 {
+            width: 25%;
+        }
+    </style>
+
+    <script>
+        function openOrCloseButton(){
+            debugger;
+            // console.log($("#dropdown_1")"");
+            alert("1");
+               // ("#dropdown_1").removeClass("open");
+                // $("#dropdown_1").addClass('open');
+        }
+    </script>
+</head>
+<body>
+<h1>你好，世界！</h1>
+<div class="page-header">
+    <h1>Example page header <small>Subtext for header</small></h1>
+</div>
+
+<div class="dropup">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropup
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+    </ul>
+</div>
+
+
+<div class="dropdown clearfix  open"  id="dropdown_1" >
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"  onclick="openOrCloseButton()">
+        Dropdown
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li class="dropdown-header">Dropdown header</li>
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li role="separator" class="divider"></li>
+        <li class="disabled"><a href="#">Disabled link</a></li>
+        <li><a href="#">Something else here</a></li>
+    </ul>
+</div>
+
+<
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) 导入jquery -->
+<script src="../bootstrap-3.3.7-dist/js/jquery-3.1.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed   从bootstrap导入js-->
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -3,6 +3,9 @@
 BootstrapProject 实践.
 
 #### 添加依赖和配置
+Bootstrap 组件链接
+https://v3.bootcss.com/components/#jumbotron
+
 
 * head标签中添加依赖
 
