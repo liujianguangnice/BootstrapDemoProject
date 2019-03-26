@@ -29,6 +29,7 @@ BootstrapProject 实践.
 #### 2、效果展示
 
 ![a.png](png/a.png)
+![b.png](png/b.png)
 
 
 <!--
